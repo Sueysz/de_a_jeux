@@ -3,7 +3,7 @@ const output = document.querySelector('.results');
 const message = document.createElement('div');
 output.append(message);
 message.textContent = 'That\'s my rolls game';
-const game = { players: 20, ele: [] };
+const game = { players: 5, ele: [] };
 
 const buildGame = () => {
     for (let i = 0; i < game.players; i++) {
