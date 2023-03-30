@@ -2,7 +2,7 @@ const btn = document.querySelector('button');
 const output = document.querySelector('.results');
 const message = document.createElement('div');
 output.append(message);
-message.textContent = 'Hello world';
+message.textContent = 'That\'s my rolls game';
 const game = { players: 20, ele: [] };
 
 const buildGame = () => {
